@@ -37,9 +37,13 @@
             <div class="header-top sales-end-header" id="salesEndHeader">
                 <div class="auto-container">
                     <div class="clearfix">
-                        <b>Get <a href="lifetime-access" class="header-top-link">30% OFF on Silver and
-                                Platinum Packages</a>.</b> Use coupon <b>RAHULSHETTY2105</b> at checkout.<br/>OFFER ends
-                        this Sunday <span id="salesEndsIn"></span>
+                        <div style="margin-block:12px">
+                            <b>
+                                <a target="_blank" href="https://qasummit.org" class="header-top-link">
+                                    Career Focussed QA Meetup with Rahul Shetty @Pune - Limited Seats! Book Now!
+                                </a>
+                            </b>
+                        </div>
                     </div>
                     <span class="close-header-top" id="closeHeader">&times;</span>
                 </div>
@@ -514,17 +518,18 @@
         var today = new Date();
         var showHeader = false;
 
-        if (today.getDay() == 5 || today.getDay() == 6 || today.getDay() == 0) {
-            var getSession = sessionStorage.getItem("headerClosed");
-            if (!getSession) {
-                showHeader = true;
-            }
-        }
+        // if (today.getDay() == 5 || today.getDay() == 6 || today.getDay() == 0) {
+        //     var getSession = sessionStorage.getItem("headerClosed");
+        //     if (!getSession) {
+        //         showHeader = true;
+        //     }
+        // }
 
-        if (showHeader) {
-            $showHeader.show();
-            countDown(showHeader);
-        }
+        // if (showHeader) {
+        //     $showHeader.show();
+        //     countDown(showHeader);
+        // }
+        $showHeader.show();
         updateCopyrightYear();
 
 
