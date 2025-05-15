@@ -1,0 +1,336 @@
+
+
+/* Use a wide full screen for small screens like tablets. */
+@media (min-width: 768px) and (max-width:992px) {
+    .container {
+        width: initial;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+
+/* --- Plans ---------------------------- */
+
+.my_planHeader {
+    text-align: center;
+    color: white;
+    padding-top:0.2em;
+    padding-bottom:0.2em;
+}
+.my_planTitle {
+    font-size:2em;
+    font-weight: bold;
+}
+.my_planPrice {
+    font-size:1.4em;
+    font-weight: bold;
+}
+.my_planDuration {
+    margin-top: -0.6em;
+}
+
+.testimonial {
+    font-weight: 600;
+    color: #555;
+}
+
+.enroll-now {
+    padding: 10px 40px;
+    border-radius: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: -5px;
+    margin-top: -18px;
+}
+
+@media (max-width: 768px) {
+    .my_planTitle {
+        font-size:small;
+    }
+}
+
+/* --- Features ------------------------- */
+
+.my_feature {
+    line-height:2.8em;
+}
+
+@media (max-width: 768px) {
+    .my_feature {
+        text-align: center
+    }
+}
+
+.my_featureRow {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    border: 0.1em solid rgb(163, 163, 163);
+}
+
+/* --- Plan 1 --------------------------- */
+.my_plan1 {
+    background: rgb(224,234,242);
+}
+
+.my_planHeader.my_plan1 a {
+    background: rgb(72, 109, 139);
+    color:white;
+}
+
+.my_planHeader.my_plan1 {
+    background: rgb(105, 153, 193);
+    border-bottom: thick solid rgb(72, 109, 139);
+}
+
+/* --- Plan 2 --------------------------- */
+.my_plan2 {
+    background: rgb(230,235,218);
+}
+
+.my_planHeader.my_plan2 a {
+    background: rgb(108, 131, 62);
+    color:white;
+}
+
+.my_planHeader.my_plan2 {
+    background: rgb(134, 162, 77);
+    border-bottom: thick solid rgb(108, 131, 62);
+}
+
+/* --- Plan 3 --------------------------- */
+.my_plan3 {
+    background: rgb(254,235,212);
+}
+
+.my_planHeader.my_plan3 a {
+    background: rgb(199, 127, 40);
+    color:white;
+}
+
+.my_planHeader.my_plan3 {
+    background: rgb(253, 161, 49);
+    border-bottom: thick solid rgb(199, 127, 40);
+}
+
+
+
+
+.my_planFeature {
+    text-align: center;
+    font-size: 2em;
+}
+
+.my_planFeature i.my_check {
+    color: green;
+}
+
+
+/*----------------------*/
+
+.bronze-plan {
+    background: #449f72; /*169e72;*/
+    color: #fff;
+}
+
+.bronze-plan .btn-outline-primary {
+    border-radius: 25px;
+    background: #fff;
+    color: #449f72;
+    font-weight: bold;
+    border: 2px solid #fff;
+    box-shadow: 2px 2px 6px #29303b;
+    font-family: 'Montserrat';
+}
+
+.bronze-plan .btn-outline-primary:hover {
+    background: #449f72;
+    color: #fff;
+    box-shadow:none;
+}
+
+.silver-plan {
+    background: #125f6b;
+    color: #fff;
+}
+
+.silver-plan .btn-outline-primary {
+    border-radius: 25px;
+    background: #fff;
+    color: #125f6b;
+    font-weight: bold;
+    border: 2px solid #fff;
+    box-shadow: 2px 2px 6px #a2cbd2;
+    font-family: 'Montserrat';
+}
+
+.silver-plan .btn-outline-primary:hover {
+    background: #125f6b;
+    color: #fff;
+    box-shadow:none;
+}
+
+.platinum-plan {
+    background: #23999e;
+    color: #fff;
+}
+
+.platinum-plan .btn-outline-primary {
+    border-radius: 25px;
+    background: #fff;
+    color: #23999e;
+    font-weight: bold;
+    border: 2px solid #fff;
+    box-shadow: 2px 2px 6px #29303b;
+    font-family: 'Montserrat';
+}
+
+.platinum-plan .btn-outline-primary:hover {
+    background: #23999e;
+    color: #fff;
+    box-shadow:none;
+}
+
+table {
+    font-family: 'Montserrat';
+}
+
+table .table-header {
+    color: #29303b;
+    font-weight: 600;
+    font-family: 'Lato';
+}
+
+table thead tr th {
+    border-bottom: 2px solid #a5d4af;
+}
+
+table tbody tr:nth-of-type(odd) {
+    background-color: #e8f5d9;
+}
+
+table tbody {
+    border-bottom: 2px solid #a5d4af;
+}
+
+table tbody tr.mobile-responsive-row {
+    display: none;
+}
+
+table tbody tr td:nth-child(1) {
+    font-weight: bold;
+    font-family: 'Lato';
+    text-align: center;
+    color:#222;
+    border-top-color: #a5d4af;
+}
+
+table tbody tr td:nth-child(2) {
+    background: #bbecd4;
+    border-top-color: #449f72;
+    border-bottom-color: #449f72;
+    width: 18%;
+    padding: 10px 15px;
+}
+
+table tbody tr td:nth-child(3) {
+    background: #a2cbd2;
+    border-top-color: #1a5f6b;
+    border-bottom-color: #1a5f6b;
+    width: 18%;
+    padding: 10px 15px;
+}
+
+table tbody tr td:nth-child(4) {
+    background: #beeef1;
+    border-top-color: #35999e;
+    border-bottom-color: #35999e;
+    width: 18%;
+    padding: 10px 15px;
+}
+
+table tbody tr td:nth-child(2) .text-success {
+    color: #449f72;
+}
+table tbody tr td:nth-child(3) .text-success {
+    color: #1a5f6b;
+}
+table tbody tr td:nth-child(4) .text-success {
+    color: #35999e;
+}
+
+.bronze-plan ,
+.silver-plan,
+.platinum-plan {
+    width: 18%;
+    padding: 10px 15px;
+}
+.bronze-plan h6,
+.silver-plan h6,
+.platinum-plan h6 {
+    font-weight: bold;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.bronze-plan p,
+.silver-plan p,
+.platinum-plan p {
+    font-family: 'Lato';
+}
+
+.all-feature-card {
+    border: 3px solid #3d4a43;
+    padding-bottom: 25px;
+}
+
+.all-feature-card .card-header {
+    background: #3d4a43;
+    color: #fff;
+    padding: 25px 20px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.all-feature-card ul li {
+    padding-left: 25px;
+    padding-left: 25px;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    color: #555;
+    font-weight: bold;
+    line-height: 34px;
+}
+
+.all-feature-card ul li .text-success{
+    margin-right: 15px;
+    color:#119051;
+}
+
+@media screen and (max-width: 600px) {
+    .bronze-plan ,
+    .silver-plan,
+    .platinum-plan {
+        width: 18%;
+        padding: 10px;
+    }
+    .bronze-plan .h1,
+    .silver-plan .h1,
+    .platinum-plan .h1 {
+        font-size: 28px;
+    }
+    table .table-header {
+        display: none;
+    }
+    table tbody tr td:nth-child(1) {
+        display: none;
+    }
+    table tbody tr.mobile-responsive-row {
+        display: table-row;
+    }
+    table tbody tr.mobile-responsive-row td {
+        background: #edf8fb !important;
+        color: #111 !important;
+        font-weight: bold;
+        font-family: 'Lato';
+    }
+}

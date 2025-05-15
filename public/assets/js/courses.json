@@ -1,0 +1,135 @@
+[{
+    "name": "Selenium Webdriver with Java Basics + Advanced + Interview Guide",
+    "author": "Rahul Shetty",
+    "imgURL": "assets/images/resource/selenium.jpg",
+    "courseURL": "https://qaclickacademy.usefedora.com/p/seleniumwebdriverjavatraining",
+    "old_price":"100.99",
+    "actual_price":"30",
+    "userEnrolled": "2344",
+    "userComments": "12",
+    "rate":"5"
+},
+{
+    "name": "Learn JMETER from Scratch -(Performance + Load) Testing Tool",
+    "author": "Rahul Shetty",
+    "imgURL": "assets/images/resource/jmeter.jpg",
+    "courseURL": "https://qaclickacademy.usefedora.com/p/learn-jmeter-from-scratch-performance-load-testing-tool-2015-06-28-08-33-24-0000",
+    "old_price":"79.99",
+    "actual_price":"25",
+    "userEnrolled": "1980",
+    "userComments": "14",
+    "rate":"5"
+},
+{
+    "name": "Learn SQL in Practical + Database Testing from Scratch",
+    "author": "Rahul Shetty",
+    "imgURL": "assets/images/resource/sql.jpg",
+    "courseURL": "https://qaclickacademy.usefedora.com/p/learn-sql-in-practical-database-testing-from-scratch",
+    "old_price": "53.99",
+    "actual_price":"25",
+    "userEnrolled": "2999",
+    "userComments": "16",
+    "rate":"5"
+},
+{
+    "name": "Appium (Selenium) - Mobile Automation Testing from Scratch",
+    "author": "Rahul Shetty",
+    "imgURL": "assets/images/resource/appium.jpg",
+    "courseURL": "https://qaclickacademy.usefedora.com/p/mobile-automation-using-appiumselenium-3",
+    "old_price":"159.99",
+    "actual_price":"100",
+    "userEnrolled": "2678",
+    "userComments": "19",
+    "rate":"5"
+},
+{
+    "name": "WebServices/REST API Testing with SoapUI",
+    "author": "Rahul Shetty",
+    "imgURL": "assets/images/resource/soapui.jpg",
+    "courseURL": "https://qaclickacademy.usefedora.com/p/webservices-testing-with-soap-ui",
+    "old_price":"88.99",
+    "actual_price":"35",
+    "userEnrolled": "1980",
+    "userComments": "14",
+    "rate":"5"
+},
+
+{
+    "name": "Master Software Testing+Jira+Agile on Live App-Be a TeamLead",
+    "author": "Rahul Shetty",
+    "imgURL": "assets/images/resource/softwaretesting.jpg",
+    "courseURL": "https://qaclickacademy.usefedora.com/p/learn-software-testing-in-practical-become-a-qa-expert",
+    "old_price":"79.99",
+    "actual_price":"25",
+    "userEnrolled": "1980",
+    "userComments": "14",
+    "rate":"5"
+},
+{
+    "name": "Master in Selenium Automation with simple Python Language",
+    "author": "Rahul Shetty",
+    "imgURL": "assets/images/resource/seleniumpython.jpg",
+    "courseURL": "https://qaclickacademy.usefedora.com/p/learn-selenium-automation-in-easy-python-language",
+    "old_price":"79.99",
+    "actual_price":"25",
+    "userEnrolled": "1980",
+    "userComments": "14",
+    "rate":"5"
+},
+{
+    "name": "Cucumber with Java-Build Automation Framework in lesser code",
+    "author": "Rahul Shetty",
+    "imgURL": "assets/images/resource/cucumber.jpg",
+    "courseURL": "https://qaclickacademy.usefedora.com/p/cucumber-with-java-build-automation-framework-in-lesser-code",
+    "isFree" : true,
+    "old_price":"79.99",
+    "actual_price":"25",
+    "userEnrolled": "1980",
+    "userComments": "14",
+    "rate":"5"
+},
+{
+    "name": "REST API Testing(Automation) from scratch-Rest Assured java",
+    "author": "Rahul Shetty",
+    "imgURL": "assets/images/resource/restapi.jpg",
+    "courseURL": "https://qaclickacademy.usefedora.com/p/rest-api-testing-automation-from-scratch-rest-assured-java",
+    "old_price":"79.99",
+    "actual_price":"25",
+    "userEnrolled": "1980",
+    "userComments": "14",
+    "rate":"5"
+},
+{
+    "name": "Learn Protractor(Angular Automation) from scratch +Framework",
+    "author": "Rahul Shetty",
+    "imgURL": "assets/images/resource/protractor.jpg",
+    "courseURL": "https://qaclickacademy.usefedora.com/p/learn-protractor-angular-automation-from-scratch-framework",
+    "old_price":"79.99",
+    "actual_price":"25",
+    "userEnrolled": "1980",
+    "userComments": "14",
+    "rate":"5"
+},
+{
+    "name": "Cypress-Modern Automation Testing from Scratch + Framework",
+    "author": "Rahul Shetty",
+    "imgURL": "assets/images/resource/cypress.jpg",
+    "courseURL": "https://qaclickacademy.usefedora.com/p/cypress-modern-automation-testing-from-scratch-framework",
+    "old_price":"79.99",
+    "actual_price":"25",
+    "userEnrolled": "1980",
+    "userComments": "14",
+    "rate":"5"
+},
+{
+    "name": "SDET/Test Architect Essentials -Road to Full stack QA",
+    "author": "Rahul Shetty",
+    "imgURL": "assets/images/resource/sdet.jpg",
+    "courseURL": "https://qaclickacademy.usefedora.com/p/sdet-test-architect-essentials-road-to-full-stack-qa",
+    "old_price":"79.99",
+    "actual_price":"25",
+    "userEnrolled": "1980",
+    "userComments": "14",
+    "rate":"5"
+}
+]

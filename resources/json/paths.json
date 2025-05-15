@@ -1,0 +1,89 @@
+[
+    {
+        "lpid":"lp1",
+        "name":"SDET Automation Engineer – JAVA",
+        "pathURL":"https://courses.rahulshettyacademy.com/p/java-sdet-automation-package-web-api-mobile-automation/",
+        "imageURL":"https://rahulshettyacademy.com/assets/images/Java_SDET_Automation_Package.png",
+        "category":"java",
+        "author":"test",
+        "hours":36,
+        "noOfCourses":5,
+        "courseList":[
+            "Core Java Tutorial.",
+            "Selenium WebDriver with Java – Basics to Advanced + Frameworks.",
+            "API Automation Testing with Rest Assured + Frameworks.",
+            "Mobile Automation Testing with Appium + Framework.",
+            "Java SDET Automation Interview Kit."
+        ],
+        "description":"If your language of interest is Java, then this is the path you can start from scratch to learn and excel in your QA Automation Career"
+    },
+    {
+        "lpid":"lp2",
+        "name":"Software Quality Assurance Engineer",
+        "pathURL":"https://courses.rahulshettyacademy.com/p/software-quality-assurance-engineer",
+        "imageURL":"https://rahulshettyacademy.com/assets/images/Software_Quality_Assurance_Engineer.png",
+        "category":"generic",
+        "author":"test",
+        "hours":42,
+        "noOfCourses":5,
+        "courseList":[
+            "Master Software Testing from Scratch with real time Examples",
+            "Understand the Jira and Agile Scrum",
+            "Learn SQL from Scratch",
+            "Web Security Testing essential",
+            "WebServices/API Testing with SoapUI + Real time Project"
+        ],
+        "description":"This Path should be chosen by the people who want to master all the core concepts of Software testing (Manual) with real time Projects"
+    },
+    {
+        "lpid":"lp3",
+        "name":"Test Architect/Senior QA Automation Engineer",
+        "pathURL":"https://courses.rahulshettyacademy.com/p/test-architect-devops-for-qa-package/",
+        "imageURL":"https://rahulshettyacademy.com/assets/images/Test_Architect_DevOps.png",
+        "category":"java",
+        "author":"test",
+        "hours":48,
+        "noOfCourses":4,
+        "courseList":[
+            "SDET/Test Architect Essential",
+            "Devops Fundamentals with AWS + Learn Docker, CI/CD Pipelines + Ansible",
+            "API Automation Testing with Rest Assured + Frameworks.",
+            "Spring Boot Fundamentals with Unit + Integration Testin"
+        ],
+        "description":"This Path should be chosen if you want to be a Java Test Architect/ Senior QA Automation Engineer who build Solutions and implement Best Practices for any Software Project."
+    },
+    {
+        "lpid":"lp4",
+        "name":"SDET Automation Engineer – PYTHON",
+        "pathURL":"https://courses.rahulshettyacademy.com/p/python-sdet-automation-testing/",
+        "imageURL":"https://rahulshettyacademy.com/assets/images/Python_SDET_Automation_Testing.png",
+        "category":"python",
+        "author":"test",
+        "hours":38,
+        "noOfCourses":4,
+        "courseList":[
+            "Python Programming Tutoria",
+            "Selenium WebDriver with Python – Basics to Advanced + Framework",
+            "Python API Automation Testing + Frameworks",
+            "BackEnd Automation testing with Python"
+        ],
+        "description":"If your language of interest is Python, then this is the path you can start from scratch to learn and excel in your Automation Career"
+    },
+    {
+        "lpid":"lp5",
+        "name":"SDET Automation Engineer – JavaScript",
+        "pathURL":"https://courses.rahulshettyacademy.com/p/javascript-sdet-automation-testing/",
+        "imageURL":"https://rahulshettyacademy.com/assets/images/JavaScript_SDET.png",
+        "category":"javascript",
+        "author":"test",
+        "hours":36,
+        "noOfCourses":4,
+        "courseList":[
+            "JavaScript Programming basics from Scratch",
+            "Learn Protractor(Angular Testing) from scratch +Framework",
+            "Cypress -Modern Automation Testing from Scratch + Framework",
+            "WebDriverIO Tutorial for Web and Mobile Automation"
+        ],
+        "description":"If your language of interest is javaScript, then below is the path you can start from scratch to learn and excel in your Automation Career"
+    }
+]

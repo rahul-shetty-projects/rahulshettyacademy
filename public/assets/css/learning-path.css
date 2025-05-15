@@ -1,0 +1,220 @@
+.lp-wrapper {
+    color: #333;
+    border: 1px solid #d0c9c9;
+    margin: 15px 0;
+}
+.lp-wrapper h1{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.lp-wrapper .list-column {
+    padding: 20px 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.lp-wrapper .list-column ul, ol{
+    padding-left: 25px;
+    padding-top: 15px;
+    font-style: italic;
+}
+.lp-wrapper .list-column ul,
+.lp-wrapper .list-column ol,
+.lp-wrapper .list-column li {
+    list-style:unset;
+}
+.lp-wrapper .list-course-style {
+    list-style: none !important;
+    text-align: left;
+    border: 1px solid #f0ad4e;
+    margin: 10px 20px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    color: #555;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.lp-wrapper .list-course-style .tick-icon {
+    color: #f0ad4e;
+    margin-right:10px;
+}
+.lp-wrapper .highlight-course-text {
+    color: #6a23dc !important;
+    font-style: normal;
+}
+.lp-wrapper .enroll-now {
+    float:none;
+    padding: 10px 40px;
+}
+.back-to-link {
+    color: #ec5252;
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.back-to-link:hover {
+    color: #333;
+}
+.learning-path-col {
+    min-height: 520px;
+}
+.learning-path-list-item {
+    border: 1px solid #aaa;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.learning-path-list-item:hover {
+    box-shadow: 1px 1px 5px #a99c9c;
+}
+.subscribe {
+    position: absolute;
+    bottom: -50px;
+}
+
+.card-image {
+    margin:-11px;
+}
+.card-title {
+    position: absolute;
+    color: #fff;
+    top: 21px;
+    right: 15px;
+    background: #ec5252;
+    padding: 4px 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.card-content h4 {
+    line-height: 1.5em;
+    padding: 25px 20px 10px 20px;
+    text-align: center;
+}
+.card-content h4 a {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+.learning-path-list-item:hover h4 a {
+    color: #ec5252;
+}
+.description {
+    line-height: 20px;
+    color: #111;
+    padding: 0px 10px;
+    font-family: 'Montserrat', sans-serif;
+    /*overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;*/
+}
+.description a {
+    /*position: absolute;
+    right: 2px;*/
+    color: #92165b;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.card-action {
+    border-top: 1px solid #aaa;
+    padding: 7px;
+}
+.card-action span {
+    color: #333;
+    font-weight: bold;
+}
+.card-action span.course-block:hover {
+    color: #ec5252;
+}
+.card-action span i{
+    margin-right: 5px;
+}
+.enroll-now {
+    border-radius: 0px;
+    padding: 8px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: -5px;
+    margin-top: -18px;
+    float: right;
+}
+.course-block {
+    cursor: pointer;
+}
+span.course-block a {
+    color: #333;
+}
+span.course-block a:hover {
+    color: #ec5252;
+}
+.course-block .popover-box {
+    display: none;
+    width: 300%;
+    position: absolute;
+    background: #fff;
+    border: 1px solid #d8d1d1;
+    padding: 10px;
+    bottom: 20px;
+    left: 10px;
+    z-index: 10;
+    box-shadow: 1px 1px 6px #cac0c0;
+}
+.course-block:hover .popover-box {
+    display: block;
+}
+.course-block .popover-box ul {
+    font-size: 15px;
+    line-height: 21px;
+    /* list-style: circle; */
+    font-weight: bold;
+    padding-left: 10px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.course-block .popover-box ul li{
+    /*list-style: square inside;*/
+    list-style: none;
+    color: #29303b;
+    /*font-style: italic;*/
+    font-weight: 500;
+    font-family: 'Montserrat';
+}
+.filterButtons .btn-custom-secondary {
+    padding: 1px 20px 3px 2px;
+    border-radius: 50px;
+    background: #efe4e4;
+    font-weight: bold;
+    /*text-transform: uppercase;*/
+    margin: 10px;
+    color: #555;
+    font-family: 'Montserrat', sans-serif;
+}
+.filterButtons .btn-custom-secondary:hover {
+    background: #e0dcdc;
+    color:#000;
+}
+.filterButtons .btn-custom-secondary.active {
+    background: #5cb85c;
+    color: #fff;
+}
+.filterButtons .btn-custom-secondary.active:hover {
+    background: #449d44;
+}
+.btn-glyphicon {
+    padding:8px;
+    background:#ffffff;
+    margin-right:8px;
+    color: #efe4e4;
+}
+.filterButtons .btn-custom-secondary.active .btn-glyphicon{
+    color: #5cb85c;
+}
+.enroll-now a,.enroll-now a:hover{
+    color: #fff!important;
+}
+/*.icon-btn {
+    padding: 1px 15px 3px 2px;
+    border-radius:50px;
+}*/

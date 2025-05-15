@@ -1,0 +1,22 @@
+.testimonial {
+    font-weight: 600;
+    color: #555;
+}
+
+.form-group input[type='radio'] + label {
+    margin-left: 12px;
+}
+
+.select-wrapper:before {
+    content: "\25BC";
+    position: absolute;
+    width: 30px;
+    color: #eff0f4;
+    height: 100%;
+    font-size: 20px;
+    right: 15px;
+    padding-top: 11px;
+    padding-left: 5px;
+    z-index: 1;
+    background: #ec5252;
+}

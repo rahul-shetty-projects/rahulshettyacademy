@@ -1,0 +1,92 @@
+openapi: 3.0.2
+info:
+  version: 1.0.0
+  title: Rahul Shetty Academy API
+  description: Rahul Shetty Academy API
+  termsOfService: 'http://swagger.io/terms/'
+  contact:
+    name: Evgenia Grubbi
+    email: evgenia.grubbi@cleversi.eu
+  license:
+    name: Apache 2.0
+    url: 'https://www.apache.org/licenses/LICENSE-2.0.html'
+servers:
+  - url: 'https://rahulshettyacademy.com/rs_admin/api'
+paths:
+  /course:
+    get:
+      summary: Get list of the courses (for the home page)
+      description: Returns 12 courses ordered by course_order
+      operationId: getCoures
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/courseResponse'
+components:
+  responses:
+    defaultError:
+      description: unexpected error
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/error'
+  schemas:
+    course:
+      type: object
+      properties:
+        name:
+          type: string
+          example: All-Access Membership-Complete Access
+        author:
+          type: string
+          example: Rahul Shetty
+        imgUrl:
+          type: string
+          example: http://host
+        courseUrl:
+          type: string
+          example: http://host
+        old_price:
+          type: integer
+          example: 15000
+        old_price_in_dollar:
+          type: integer
+          example: 199
+        actual_price:
+          type: integer
+          example: 7000
+        actual_price_in_dollar:
+          type: integer
+          example: 99
+        noOfCourses:
+          type: integer
+          example: 25
+        userEnrolled:
+          type: integer
+          example: 1200
+        userComments:
+          type: integer
+          example: 1
+        rate:
+          type: integer
+          example: 1
+        isBundle:
+          type: boolean
+          example: true
+    courseResponse:
+      type: array
+      items:
+        $ref: '#/components/schemas/course'
+    error:
+      type: object
+      required:
+        - error
+        - status
+      properties:
+        error:
+          type: boolean
+        status:
+          type: string
